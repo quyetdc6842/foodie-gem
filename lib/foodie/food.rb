@@ -1,3 +1,5 @@
+require 'active_support/inflector' # To use pluralize method
+
 module Foodie
   # Food class
   class Food
@@ -9,6 +11,11 @@ module Foodie
           'Delicious!'
         end
       end
+
+      def pluralize(word)
+        word.pluralize
+      end
+
     end
   end
 end

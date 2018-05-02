@@ -22,6 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
+Install gem dependencies in .gemspec
+
+```ruby
+	bundle install
+```
+
 To run rspec
 ```ruby
 	bundle exec rspec spec
